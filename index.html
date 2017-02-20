@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project | Calculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style media="screen">
+      *{padding: 0px; margin: 0px;}
+      .calculator{margin: 15px auto 0px auto; border: 1px solid #ccc; width: 145px;}
+      .display-area{width: 112px; height: 25px; border: 1px solid #ccc; margin: 10px 0px;}
+      ul li{
+        display: inline;
+      }
+      .btn-type-1{width: 25px; height: 25px;}
+      .btn-type-2{width: 55px; height: 25px;}
+
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="container">
+        <div class="calculator col-md-6">
+          <div class="display-area">
+            <div class="display">
+
+            </div>
+          </div>
+          <div class="button-area">
+            <div class="button-area_row1">
+              <ul>
+                <li><button class="btn-type-1" type="button" name="button">AC</button></li>
+                <li><button class="btn-type-1" type="button" name="button">+/-</button></li>
+                <li><button class="btn-type-1" type="button" name="button">%</button></li>
+                <li><button class="btn-type-1" type="button" name="button">/</button></li>
+              </ul>
+            </div>
+            <div class="button-area_row2">
+              <ul>
+                <li><button class="btn-type-1" type="button" name="button">7</button></li>
+                <li><button class="btn-type-1" type="button" name="button">8</button></li>
+                <li><button class="btn-type-1" type="button" name="button">9</button></li>
+                <li><button class="btn-type-1" type="button" name="button">x</button></li>
+              </ul>
+            </div>
+            <div class="button-area_row3">
+              <ul>
+                <li><button class="btn-type-1" type="button" name="button">4</button></li>
+                <li><button class="btn-type-1" type="button" name="button">5</button></li>
+                <li><button class="btn-type-1" type="button" name="button">6</button></li>
+                <li><button class="btn-type-1" type="button" name="button">-</button></li>
+              </ul>
+            </div>
+            <div class="button-area_row4">
+              <ul>
+                <li><button class="btn-type-1" type="button" name="button">1</button></li>
+                <li><button class="btn-type-1" type="button" name="button">2</button></li>
+                <li><button class="btn-type-1" type="button" name="button">3</button></li>
+                <li><button class="btn-type-1" type="button" name="button">+</button></li>
+              </ul>
+            </div>
+            <div class="button-area_row5">
+              <ul>
+                <li><button class="btn-type-2" type="button" name="button">0</button></li>
+                <li><button class="btn-type-1" type="button" name="button">.</button></li>
+                <li><button class="btn-type-1" type="button" name="button">=</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
